@@ -8,7 +8,7 @@
   $price = ($_POST["price"]);
   $iname=($_POST["iname"]);
   
-$conn = new mysqli('sql200.epizy.com','epiz_30900905','dD28o5MLJSuyH','epiz_30900905_Prathmesh');
+$conn = new mysqli('sql200.epizy.com','','','');
 if($conn->connect_error){
     die('connection failed :'.$conn->connect_error);
 }else{
